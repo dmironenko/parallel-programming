@@ -1,0 +1,77 @@
+simple:
+6302340100 benchmark result: 201695936 op/sec
+
+synchronized (1):
+1620343449 benchmark result: 54564911 op/sec
+
+synchronized (2):
+483865468 benchmark result: 16324173 op/sec
+
+synchronized (4):
+396920961 benchmark result: 13503784 op/sec
+
+synchronized (8):
+478661883 benchmark result: 16007419 op/sec
+
+synchronized (16):
+438314395 benchmark result: 14581795 op/sec
+
+lock only (1):
+0 benchmark result: 64734140 op/sec
+
+lock only (2):
+0 benchmark result: 19935380 op/sec
+
+lock only (4):
+0 benchmark result: 16500480 op/sec
+
+lock only (8):
+0 benchmark result: 16486307 op/sec
+
+lock only (16):
+0 benchmark result: 18267795 op/sec
+
+sharded (1):
+1671119944 benchmark result: 55767927 op/sec
+
+sharded (2):
+438780284 benchmark result: 14532288 op/sec
+
+sharded (4):
+302442619 benchmark result: 10206668 op/sec
+
+sharded (8):
+295033217 benchmark result: 9880229 op/sec
+
+sharded (16):
+303988597 benchmark result: 10024285 op/sec
+
+thread local (1):
+2631420971 benchmark result: 85814851 op/sec
+
+thread local (2):
+4477002123 benchmark result: 148377203 op/sec
+
+thread local (4):
+7489790528 benchmark result: 245759632 op/sec
+
+thread local (8):
+9174820773 benchmark result: 302397123 op/sec
+
+thread local (16):
+7740756605 benchmark result: 263546773 op/sec
+
+double buffer (1):
+1896947975 benchmark result: 63835921 op/sec
+
+double buffer (2):
+3373586440 benchmark result: 113246614 op/sec
+
+double buffer (4):
+5317741544 benchmark result: 175967916 op/sec
+
+double buffer (8):
+7306765753 benchmark result: 245219246 op/sec
+
+double buffer (16):
+6894373714 benchmark result: 228055369 op/sec

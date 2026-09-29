@@ -1,0 +1,39 @@
+sharded:
+inconsistency result: 93.99%
+sum < count: 9025, sum > count: 374
+count: 587362, calls: 587362, difference: 0
+
+thread local:
+inconsistency result: 95.81%
+sum < count: 9546, sum > count: 35
+count: 4758824, calls: 4758824, difference: 0
+
+double buffer:
+inconsistency result: 0.00%
+sum < count: 0, sum > count: 0
+count: 1565561, calls: 1565561, difference: 0
+
+double buffer without active check (1):
+inconsistency result: 90.63%
+sum < count: 9063, sum > count: 0
+count: 1817352, calls: 1816847, difference: 505
+
+double buffer without active check (2):
+inconsistency result: 98.04%
+sum < count: 9804, sum > count: 0
+count: 5705630, calls: 5705203, difference: 427
+
+double buffer without active check (3):
+inconsistency result: 98.22%
+sum < count: 9822, sum > count: 0
+count: 6669812, calls: 6669639, difference: 173
+
+double buffer without active check (4):
+inconsistency result: 94.71%
+sum < count: 9471, sum > count: 0
+count: 7064586, calls: 7064638, difference: -52
+
+double buffer without active check (5):
+inconsistency result: 93.24%
+sum < count: 9324, sum > count: 0
+count: 5222527, calls: 5222305, difference: 222
